@@ -647,6 +647,7 @@ PRODUCT_PACKAGES += \
     TimeService \
     QtiTelephonyService \
     qcrilmsgtunnel \
+    datastatusnotification \
     QtiTelephonyServicelibrary \
     com.qualcomm.qti.imscmservice-V2.0-java \
     com.qualcomm.qti.imscmservice-V2.1-java \
