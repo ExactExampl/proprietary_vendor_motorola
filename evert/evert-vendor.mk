@@ -18,6 +18,74 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/evert/proprietary/vendor/firmware/opalum.tx.ext.config.1:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.tx.ext.config.1 \
     vendor/motorola/evert/proprietary/vendor/firmware/opalum.tx.ext.config.2:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.tx.ext.config.2 \
     vendor/motorola/evert/proprietary/vendor/firmware/opalum.tx.ext.config.3:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.tx.ext.config.3 \
+    vendor/motorola/evert/proprietary/system/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motosignature.xml \
+    vendor/motorola/evert/proprietary/system/etc/permissions/privapp-permissions-com.motorola.camera2.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.motorola.camera2.xml \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libFNVfbEngineHAL.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libFNVfbEngineHAL.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libalg-common.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libalg-common.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libarcsoft_dualcam_refocus.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libas-agegender.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libas-agegender.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libas-beauty.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libas-beauty.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libas-depth.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libas-depth.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libas-sfbokeh.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libas-sfbokeh.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libas-supernight.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libas-supernight.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libas-superportrait.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libas-superportrait.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libbg-postproc-jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libbg-postproc-jni.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libbg-postproc.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libbg-postproc.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libbs-depth-rt.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libbs-depth-rt.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libbs-depth.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libbs-depth.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libc++_shared.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libc++_shared.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libcamerax_extension_jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libcamerax_extension_jni.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libfn-beauty.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libfn-beauty.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libfoundation.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libfoundation.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libfp-bodysegment.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libfp-bodysegment.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libfp-relighting-intf.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libfp-relighting-intf.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libfp-relighting.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libfp-relighting.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libfp-scenedetect.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libfp-scenedetect.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libgif.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libgif.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libjni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libjni.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libjpeg.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libjpeg.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/liblenovo_panorama.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/liblenovo_panorama.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/liblenovo_panorama_qc.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/liblenovo_panorama_qc.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libmcf-base.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmcf-base.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libmcf-common.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmcf-common.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libmcf-jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmcf-jni.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libmcf.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmcf.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libmorpho_panorama_gp3.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmorpho_panorama_gp3.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libmorpho_sensor_fusion.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmorpho_sensor_fusion.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libmp-depth.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmp-depth.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libmp-dis-v4.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmp-dis-v4.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libmp-dis-v5.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmp-dis-v5.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libmp-dis.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmp-dis.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libmp-hdr.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmp-hdr.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libmp-refiner.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmp-refiner.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libmp-superres.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmp-superres.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libmpbase.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmpbase.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libmt-bestshot-video.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmt-bestshot-video.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libmt-bestshot.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmt-bestshot.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libmt-bgFaceAnalysis.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmt-bgFaceAnalysis.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libmt-blur.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmt-blur.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libmt-composition.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmt-composition.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libmt-depth.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmt-depth.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libmt-drsd.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmt-drsd.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libmt-flasheyes.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmt-flasheyes.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libmt-framestat.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmt-framestat.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libmt-imagerefiner.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmt-imagerefiner.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libmt-motion.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmt-motion.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libmt-selectivecolor.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmt-selectivecolor.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libmt-watermark.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libmt-watermark.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libopenssh.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libopenssh.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libqc-clearsight-intf.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libqc-clearsight-intf.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libqc-clearsight.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libqc-clearsight.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libqc-depth-intf.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libqc-depth-intf.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libqc-depth.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libqc-depth.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libqc-facedetect.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libqc-facedetect.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libqc-focus-intf.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libqc-focus-intf.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libqc-focus.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libqc-focus.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libqc-snpe.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libqc-snpe.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libss-aicamera.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libss-aicamera.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libyuv.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libyuv.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libzx-barcode.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libzx-barcode.so \
+    vendor/motorola/evert/proprietary/system/priv-app/MotCamera2/lib/arm64/libzxing-core.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotCamera2/lib/arm64/libzxing-core.so \
     vendor/motorola/evert/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice \
     vendor/motorola/evert/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/motorola/evert/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service-qti \
@@ -427,4 +495,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/evert/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so
 
 PRODUCT_PACKAGES += \
-    ims
+    MotoSignatureApp \
+    MotCamera2 \
+    ims \
+    com.motorola.motosignature
